@@ -1,0 +1,11 @@
+Package: CTTtools
+Type: Package
+Title: Analisis Instrumen dengan CTT
+Version: 0.1.0
+Author: lanra
+  Description: Analisis CTT.
+Depends: R (>= 4.0)
+Imports: shiny
+License: MIT
+Encoding: UTF-8
+LazyData: true
