@@ -590,7 +590,7 @@ ui <- dashboardPage(
                       tags$li("Lihat hasil butir -> ", tags$b("Analisis Butir")),
                       tags$li("Evaluasi reliabilitas -> ", tags$b("Reliabilitas")),
                       tags$li("Cek distraktor -> ", tags$b("Distraktor"),
-                              " (untuk tes pilihan ganda / checklist)")
+                              " (untuk tes pilihan ganda)")
                     ),
                     tags$hr(),
                     tags$h5("Metode Indeks Kesulitan per Jenis Instrumen:"),
@@ -608,12 +608,12 @@ ui <- dashboardPage(
                                  ),
                                  tags$tr(
                                    tags$td(tags$span(class="instrumen-badge badge-angket","Angket")),
-                                   tags$td("Endorsement Rate = Mean / Skor Maks"),
+                                   tags$td("Tingkat Dukungan = Mean / Skor Maks"),
                                    tags$td("Tinggi -> responden cenderung menyetujui")
                                  ),
                                  tags$tr(
                                    tags$td(tags$span(class="instrumen-badge badge-checklist","Checklist")),
-                                   tags$td("Prevalensi = Proporsi Respons ≥ Threshold"),
+                                   tags$td("Tingkat Kemunculan = Proporsi Respons ≥ batas"),
                                    tags$td("Tinggi -> perilaku sangat umum/sering muncul")
                                  )
                                )
