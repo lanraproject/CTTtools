@@ -546,9 +546,9 @@ ui <- dashboardPage(
                     tags$div(class = "info-callout",
                              tags$b("Panduan koefisien reliabilitas:"), tags$br(),
                              "α / KR ≥ 0.80 -> Sangat Tinggi", tags$br(),
-                             "0.60 – 0.80   -> Tinggi",          tags$br(),
-                             "0.40 – 0.60   -> Cukup",           tags$br(),
-                             "0.20 – 0.40   -> Rendah",          tags$br(),
+                             "0.60 - 0.80   -> Tinggi",          tags$br(),
+                             "0.40 - 0.60   -> Cukup",           tags$br(),
+                             "0.20 - 0.40   -> Rendah",          tags$br(),
                              "< 0.20        -> Sangat Rendah"
                     ),
                     tags$div(class = "warn-callout",
