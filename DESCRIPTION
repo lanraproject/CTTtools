@@ -1,7 +1,7 @@
 Package: CTTtools
 Type: Package
 Title: Analisis Instrumen dengan CTT
-Version: 0.1.0
+Version: 0.1.8
 Author: lanra
   Description: Analisis CTT.
 Depends: R (>= 4.0)
