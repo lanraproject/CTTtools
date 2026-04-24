@@ -711,7 +711,11 @@ ui <- dashboardPage(
                       tags$li("Lord & Novick (1968). ",
                               tags$i("Statistical Theories of Mental Test Scores.")),
                       tags$li("Mardapi (2008). ",
-                              tags$i("Teknik Penyusunan Instrumen Tes dan Nontes."), " Mitra Cendekia.")
+                              tags$i("Teknik Penyusunan Instrumen Tes dan Nontes."), " Mitra Cendekia."),
+                      tags$li("Thompson, N (2020). ",
+                              tags$i ("What is Classical Item Difficulty (P Value)? Assessment Systems."), " https://assess.com/classical-item-difficulty-p-value/"),
+                      tags$li("Thompson, N (2021). ",
+                              tags$i ("Item Analysis: How to Improve Tests with Psychometrics. Assessment Systems.", " https://assess.com/what-is-item-analysis/")
                     ),
                     tags$div(class = "info-callout",
                              tags$b("Package R:"), tags$br(),
